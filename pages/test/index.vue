@@ -11,7 +11,7 @@
 import $ from 'jquery'
 require('image-map')
 export default {
-  mounted() {
+  created() {
     $('img[usemap]').imageMap()
   }
 }
